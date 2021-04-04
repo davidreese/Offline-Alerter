@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F231270026165D1800732752 /* Offline_AlerterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23126FF26165D1800732752 /* Offline_AlerterApp.swift */; };
-		F231270226165D1800732752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231270126165D1800732752 /* ContentView.swift */; };
-		F231270426165D1900732752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F231270326165D1900732752 /* Assets.xcassets */; };
-		F231270726165D1900732752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F231270626165D1900732752 /* Preview Assets.xcassets */; };
-		F231271126165DD500732752 /* OfflineAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231271026165DD500732752 /* OfflineAlerter.swift */; };
-		F2312715261661A400732752 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2312714261661A400732752 /* ContentViewModel.swift */; };
+		F2DAAD1826198B76006BE9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAD1726198B76006BE9BF /* AppDelegate.swift */; };
+		F2DAAD1A26198B76006BE9BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAD1926198B76006BE9BF /* ContentView.swift */; };
+		F2DAAD1C26198B81006BE9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAD1B26198B81006BE9BF /* Assets.xcassets */; };
+		F2DAAD1F26198B81006BE9BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAD1E26198B81006BE9BF /* Preview Assets.xcassets */; };
+		F2DAAD2226198B81006BE9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAD2026198B81006BE9BF /* Main.storyboard */; };
+		F2DAAD2C26198BAA006BE9BF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAD2B26198BAA006BE9BF /* ContentViewModel.swift */; };
+		F2DAAD2F26198C36006BE9BF /* OfflineAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAD2E26198C36006BE9BF /* OfflineAlerter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F23126FC26165D1800732752 /* Offline Alerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offline Alerter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F23126FF26165D1800732752 /* Offline_AlerterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offline_AlerterApp.swift; sourceTree = "<group>"; };
-		F231270126165D1800732752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F231270326165D1900732752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F231270626165D1900732752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F231270826165D1900732752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F231270926165D1900732752 /* Offline_Alerter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Offline_Alerter.entitlements; sourceTree = "<group>"; };
-		F231271026165DD500732752 /* OfflineAlerter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAlerter.swift; sourceTree = "<group>"; };
-		F2312714261661A400732752 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F2DAAD1426198B76006BE9BF /* Offline Alerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offline Alerter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DAAD1726198B76006BE9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2DAAD1926198B76006BE9BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2DAAD1B26198B81006BE9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2DAAD1E26198B81006BE9BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2DAAD2126198B81006BE9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2DAAD2326198B81006BE9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DAAD2426198B81006BE9BF /* Offline_Alerter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Offline_Alerter.entitlements; sourceTree = "<group>"; };
+		F2DAAD2B26198BAA006BE9BF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F2DAAD2E26198C36006BE9BF /* OfflineAlerter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAlerter.swift; sourceTree = "<group>"; };
+		F2DAAD3226198C68006BE9BF /* Offline AlerterDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Offline AlerterDebug.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F23126F926165D1800732752 /* Frameworks */ = {
+		F2DAAD1126198B76006BE9BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,41 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F23126F326165D1800732752 = {
+		F2DAAD0B26198B76006BE9BF = {
 			isa = PBXGroup;
 			children = (
-				F23126FE26165D1800732752 /* Offline Alerter */,
-				F23126FD26165D1800732752 /* Products */,
+				F2DAAD1626198B76006BE9BF /* Offline Alerter */,
+				F2DAAD1526198B76006BE9BF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F23126FD26165D1800732752 /* Products */ = {
+		F2DAAD1526198B76006BE9BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F23126FC26165D1800732752 /* Offline Alerter.app */,
+				F2DAAD1426198B76006BE9BF /* Offline Alerter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F23126FE26165D1800732752 /* Offline Alerter */ = {
+		F2DAAD1626198B76006BE9BF /* Offline Alerter */ = {
 			isa = PBXGroup;
 			children = (
-				F23126FF26165D1800732752 /* Offline_AlerterApp.swift */,
-				F231270126165D1800732752 /* ContentView.swift */,
-				F2312714261661A400732752 /* ContentViewModel.swift */,
-				F231271026165DD500732752 /* OfflineAlerter.swift */,
-				F231270326165D1900732752 /* Assets.xcassets */,
-				F231270826165D1900732752 /* Info.plist */,
-				F231270926165D1900732752 /* Offline_Alerter.entitlements */,
-				F231270526165D1900732752 /* Preview Content */,
+				F2DAAD3226198C68006BE9BF /* Offline AlerterDebug.entitlements */,
+				F2DAAD1726198B76006BE9BF /* AppDelegate.swift */,
+				F2DAAD1926198B76006BE9BF /* ContentView.swift */,
+				F2DAAD2B26198BAA006BE9BF /* ContentViewModel.swift */,
+				F2DAAD2E26198C36006BE9BF /* OfflineAlerter.swift */,
+				F2DAAD1B26198B81006BE9BF /* Assets.xcassets */,
+				F2DAAD2026198B81006BE9BF /* Main.storyboard */,
+				F2DAAD2326198B81006BE9BF /* Info.plist */,
+				F2DAAD2426198B81006BE9BF /* Offline_Alerter.entitlements */,
+				F2DAAD1D26198B81006BE9BF /* Preview Content */,
 			);
 			path = "Offline Alerter";
 			sourceTree = "<group>";
 		};
-		F231270526165D1900732752 /* Preview Content */ = {
+		F2DAAD1D26198B81006BE9BF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F231270626165D1900732752 /* Preview Assets.xcassets */,
+				F2DAAD1E26198B81006BE9BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -80,13 +85,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F23126FB26165D1800732752 /* Offline Alerter */ = {
+		F2DAAD1326198B76006BE9BF /* Offline Alerter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F231270C26165D1900732752 /* Build configuration list for PBXNativeTarget "Offline Alerter" */;
+			buildConfigurationList = F2DAAD2726198B81006BE9BF /* Build configuration list for PBXNativeTarget "Offline Alerter" */;
 			buildPhases = (
-				F23126F826165D1800732752 /* Sources */,
-				F23126F926165D1800732752 /* Frameworks */,
-				F23126FA26165D1800732752 /* Resources */,
+				F2DAAD1026198B76006BE9BF /* Sources */,
+				F2DAAD1126198B76006BE9BF /* Frameworks */,
+				F2DAAD1226198B76006BE9BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -94,24 +99,24 @@
 			);
 			name = "Offline Alerter";
 			productName = "Offline Alerter";
-			productReference = F23126FC26165D1800732752 /* Offline Alerter.app */;
+			productReference = F2DAAD1426198B76006BE9BF /* Offline Alerter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F23126F426165D1800732752 /* Project object */ = {
+		F2DAAD0C26198B76006BE9BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					F23126FB26165D1800732752 = {
+					F2DAAD1326198B76006BE9BF = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = F23126F726165D1800732752 /* Build configuration list for PBXProject "Offline Alerter" */;
+			buildConfigurationList = F2DAAD0F26198B76006BE9BF /* Build configuration list for PBXProject "Offline Alerter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,44 +124,56 @@
 				en,
 				Base,
 			);
-			mainGroup = F23126F326165D1800732752;
-			productRefGroup = F23126FD26165D1800732752 /* Products */;
+			mainGroup = F2DAAD0B26198B76006BE9BF;
+			productRefGroup = F2DAAD1526198B76006BE9BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F23126FB26165D1800732752 /* Offline Alerter */,
+				F2DAAD1326198B76006BE9BF /* Offline Alerter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F23126FA26165D1800732752 /* Resources */ = {
+		F2DAAD1226198B76006BE9BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F231270726165D1900732752 /* Preview Assets.xcassets in Resources */,
-				F231270426165D1900732752 /* Assets.xcassets in Resources */,
+				F2DAAD2226198B81006BE9BF /* Main.storyboard in Resources */,
+				F2DAAD1F26198B81006BE9BF /* Preview Assets.xcassets in Resources */,
+				F2DAAD1C26198B81006BE9BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F23126F826165D1800732752 /* Sources */ = {
+		F2DAAD1026198B76006BE9BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2312715261661A400732752 /* ContentViewModel.swift in Sources */,
-				F231270226165D1800732752 /* ContentView.swift in Sources */,
-				F231271126165DD500732752 /* OfflineAlerter.swift in Sources */,
-				F231270026165D1800732752 /* Offline_AlerterApp.swift in Sources */,
+				F2DAAD1A26198B76006BE9BF /* ContentView.swift in Sources */,
+				F2DAAD2F26198C36006BE9BF /* OfflineAlerter.swift in Sources */,
+				F2DAAD1826198B76006BE9BF /* AppDelegate.swift in Sources */,
+				F2DAAD2C26198BAA006BE9BF /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F2DAAD2026198B81006BE9BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DAAD2126198B81006BE9BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F231270A26165D1900732752 /* Debug */ = {
+		F2DAAD2526198B81006BE9BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		F231270B26165D1900732752 /* Release */ = {
+		F2DAAD2626198B81006BE9BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,12 +288,12 @@
 			};
 			name = Release;
 		};
-		F231270D26165D1900732752 /* Debug */ = {
+		F2DAAD2826198B81006BE9BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Offline Alerter/Offline_Alerter.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Offline Alerter/Offline AlerterDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Offline Alerter/Preview Content\"";
@@ -295,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		F231270E26165D1900732752 /* Release */ = {
+		F2DAAD2926198B81006BE9BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F23126F726165D1800732752 /* Build configuration list for PBXProject "Offline Alerter" */ = {
+		F2DAAD0F26198B76006BE9BF /* Build configuration list for PBXProject "Offline Alerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F231270A26165D1900732752 /* Debug */,
-				F231270B26165D1900732752 /* Release */,
+				F2DAAD2526198B81006BE9BF /* Debug */,
+				F2DAAD2626198B81006BE9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F231270C26165D1900732752 /* Build configuration list for PBXNativeTarget "Offline Alerter" */ = {
+		F2DAAD2726198B81006BE9BF /* Build configuration list for PBXNativeTarget "Offline Alerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F231270D26165D1900732752 /* Debug */,
-				F231270E26165D1900732752 /* Release */,
+				F2DAAD2826198B81006BE9BF /* Debug */,
+				F2DAAD2926198B81006BE9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F23126F426165D1800732752 /* Project object */;
+	rootObject = F2DAAD0C26198B76006BE9BF /* Project object */;
 }
